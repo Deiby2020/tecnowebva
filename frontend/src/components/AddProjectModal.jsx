@@ -29,7 +29,7 @@ export default function AddClientModal() {
     e.preventDefault();
 
     if (name === '' || description === '' || status === '') {
-      return alert('Please fill in all fields');
+      return alert('Por favor completa los campos requeridos');
     }
 
     addProject(name, description, clientId, status);

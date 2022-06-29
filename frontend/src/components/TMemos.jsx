@@ -7,7 +7,7 @@ export default function TMemos() {
   const { loading, error, data } = useQuery(GET_TMEMORANDUMS);
 
   if (loading) return <Spinner />;
-  if (error) return <p>Error al cargar la página</p>;
+  if (error) return <p>Algo salió mal, con la lista de TMemorandums!</p>;
 
   return (
     <>

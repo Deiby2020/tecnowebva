@@ -33,11 +33,10 @@ export default function AddTMemorandumModal() {
     setDescripcion('');
     setEstado('vacio');
     setConcurrencia('');
-    console.log(e);
   };
 
-  if (loading) return null;
-  if (error) return 'Por favor rellene todos los campos';
+  //if (loading) return null;
+  //if (error) return 'Por favor rellene todos los campos';
 
   return (
     <>

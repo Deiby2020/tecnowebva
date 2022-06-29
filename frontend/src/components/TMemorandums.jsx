@@ -7,7 +7,7 @@ export default function TMemorandums() {
   const { loading, error, data } = useQuery(GET_TMEMORANDUMS);
 
   if (loading) return <Spinner />;
-  if (error) return <p>Error vuelve a intentarlo!</p>;
+  if (error) return <p>Algo salió mal, con los cards!</p>;
 
   return (
     <>
